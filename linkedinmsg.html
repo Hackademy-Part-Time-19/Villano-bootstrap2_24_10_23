@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="chat">
+            <div id="box1">
+                <div class="intestazione1">
+                    <div class="int1">
+                        <h5>Messaging</h5>
+                    </div>
+                    <div class="int2">
+                        <button type="button" id="btnint2"><h5 class="btntxt">Try Piwaa</h5></button>
+                    </div>
+                    <div class="icona">
+                        <i class="bi bi-pencil-square" ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                            <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                            <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                        </svg></i>
+                    </div>
+                    <div class="int4">
+                        <i class="bi bi-three-dots"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                            <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                        </svg></i>
+                    </div>
+
+                </div>
+                <div class="searchbox1">
+                    <div id="search1">
+                        <div class="icona">
+                            <i class="bi bi-search"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg></i>
+                        </div>
+                        <div id="box_search_mex">
+                            <textarea name="search_mex" id="search_mex" cols="24" rows="1" placeholder="Search messages"></textarea>
+                        </div>
+                        <div class="icona">
+                            <i class="bi bi-sliders2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-sliders2" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M10.5 1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4H1.5a.5.5 0 0 1 0-1H10V1.5a.5.5 0 0 1 .5-.5ZM12 3.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5Zm-6.5 2A.5.5 0 0 1 6 6v1.5h8.5a.5.5 0 0 1 0 1H6V10a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5ZM1 8a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2A.5.5 0 0 1 1 8Zm9.5 2a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V13H1.5a.5.5 0 0 1 0-1H10v-1.5a.5.5 0 0 1 .5-.5Zm1.5 2.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5Z"/>
+                            </svg></i>
+                        </div>
+                    </div>
+                </div>
+                <div id="sel_mex">
+                    <div id="int_sel_mex">
+                        <h5>My Sales Navigator inbox&nbsp; </h5><i class="bi bi-chevron-compact-right"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"/>
+                        </svg></i>
+                    </div>
+                    <div id="box_sel_mex">
+                        <div class="img_b_s_m">
+                            <img src="https://wac-cdn.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=1277" alt="pincopallino">
+                        </div>
+                        <div class="txt_b_s_m">
+                            <div class="title_t_b_s_m">
+                                <div><h6>Vinayak T.</h6></div>
+                                <div ><time>2:48 PM</time></div>
+                            </div>
+                            <div class="txt_t_b_s_m">
+                                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit.  </p>
+                            </div>
+
+                        </div>
+
+                        <div style="margin-left: 20px;"></div>
+                    </div>
+                    <div id="box_sel_mex">
+                        <div class="img_b_s_m">
+                            <img src="https://wac-cdn.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=1277" alt="pincopallino">
+                        </div>
+                        <div class="txt_b_s_m">
+                            <div class="title_t_b_s_m">
+                                <div><h6>Vinayak T.</h6></div>
+                                <div ><time>2:48 PM</time></div>
+                            </div>
+                            <div class="txt_t_b_s_m">
+                                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit.  </p>
+                            </div>
+
+                        </div>
+
+                        <div style="margin-left: 20px;"></div>
+                    </div>
+                    <div id="box_sel_mex">
+                        <div class="img_b_s_m">
+                            <img src="https://wac-cdn.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=1277" alt="pincopallino">
+                        </div>
+                        <div class="txt_b_s_m">
+                            <div class="title_t_b_s_m">
+                                <div><h6>Vinayak T.</h6></div>
+                                <div ><time>2:48 PM</time></div>
+                            </div>
+                            <div class="txt_t_b_s_m">
+                                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit.  </p>
+                            </div>
+
+                        </div>
+
+                        <div style="margin-left: 20px;"></div>
+                    </div>
+                    <div id="box_sel_mex">
+                        <div class="img_b_s_m">
+                            <img src="https://wac-cdn.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=1277" alt="pincopallino">
+                        </div>
+                        <div class="txt_b_s_m">
+                            <div class="title_t_b_s_m">
+                                <div><h6>Vinayak T.</h6></div>
+                                <div ><time>2:48 PM</time></div>
+                            </div>
+                            <div class="txt_t_b_s_m">
+                                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit.  </p>
+                            </div>
+
+                        </div>
+
+                        <div style="margin-left: 20px;"></div>
+                    </div>
+                    <div id="box_sel_mex">
+                        <div class="img_b_s_m">
+                            <img src="https://wac-cdn.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=1277" alt="pincopallino">
+                        </div>
+                        <div class="txt_b_s_m">
+                            <div class="title_t_b_s_m">
+                                <div><h6>Vinayak T.</h6></div>
+                                <div ><time>2:48 PM</time></div>
+                            </div>
+                            <div class="txt_t_b_s_m">
+                                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit.  </p>
+                            </div>
+
+                        </div>
+
+                        <div style="margin-left: 20px;"></div>
+                    </div>
+                    <div id="box_sel_mex">
+                        <div class="img_b_s_m">
+                            <img src="https://wac-cdn.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=1277" alt="pincopallino">
+                        </div>
+                        <div class="txt_b_s_m">
+                            <div class="title_t_b_s_m">
+                                <div><h6>Vinayak T.</h6></div>
+                                <div ><time>2:48 PM</time></div>
+                            </div>
+                            <div class="txt_t_b_s_m">
+                                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit.  </p>
+                            </div>
+
+                        </div>
+
+                        <div style="margin-left: 20px;"></div>
+                    </div>
+
+                    <div id="box_sel_mex">
+                        <div class="img_b_s_m">
+                            <img src="https://wac-cdn.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=1277" alt="pincopallino">
+                        </div>
+                        <div class="txt_b_s_m">
+                            <div class="title_t_b_s_m">
+                                <div><h6>Vinayak T.</h6></div>
+                                <div ><time>2:48 PM</time></div>
+                            </div>
+                            <div class="txt_t_b_s_m">
+                                <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit.  </p>
+                            </div>
+
+                        </div>
+
+                        <div style="margin-left: 20px;"></div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div id="box2">
+
+
+            </div>
+        </div>
+    </main>
+    <aside>
+
+    </aside>
+
+</body>
+</html>
